@@ -5,3 +5,28 @@
 body{
   @apply bg-gray-100;
 }
+
+input[type="text"], textarea {
+  @apply bg-gray-100 w-full block py-2 px-2 mb-2;
+}
+label.input-label {
+  @apply text-gray-500 text-xs;
+}
+
+.radio-toggles {
+  @apply bg-gray-200 inline-flex p-1 cursor-pointer;
+}
+.radio-toggles span {
+  @apply p-2 px-4 text-gray-500 block cursor-pointer;
+}
+.radio-toggles input[type="radio"] {
+  @apply hidden;
+}
+.radio-toggles input[type="radio"]:checked + span {
+  @apply bg-white text-purple-600;
+}
+
+.sortable-ghost{
+  opacity: 0.3;
+  @apply bg-gray-300
+}

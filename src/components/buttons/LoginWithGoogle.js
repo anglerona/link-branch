@@ -6,7 +6,7 @@ export default function LoginWithGoogle() {
 
     return (
         <button 
-            className="bg-teal-600 text-white text-center w-full py-4 rounded shadow"
+            className="bg-purple-600 text-white text-center w-full py-4 rounded shadow"
             onClick={() => {signIn('google')}}
         >
             Sign In with Google
